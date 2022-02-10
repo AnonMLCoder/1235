@@ -22,6 +22,6 @@ To generate counterfactuals :
 
 From the `scr` directory:
 `cd recourse_Xformer`       
-`CUDA_VISIBLE_DEVICES=0,1 python3 executor.py --dir us_import1 --num_anomalies 10 --num_cf 50`
+`CUDA_VISIBLE_DEVICES=0 python3 executor.py --dir us_import1 --num_anomalies 10 --num_cf 50`
 
 -----------------------------------------
